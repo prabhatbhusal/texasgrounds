@@ -7,22 +7,22 @@ export const NavItems:navItems[] = [
     url: "/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Services",
     url: "/services",
   },
   {
-    id: 1,
+    id: 3,
     title: "Careers",
     url: "/careers",
   },
   {
-    id: 1,
+    id: 4,
     title: "Contact",
     url: "/contact",
   },
   {
-    id: 1,
+    id: 5,
     title: "Blog",
     url: "/blog",
   },
