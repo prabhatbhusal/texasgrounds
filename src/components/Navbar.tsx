@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <main>
-      <div className="lg:flex lg:flex-row md:flex-col justify-between items-center px-6 md:px-8 lg:px-12 xl:px-30 py-5 z-[100] w-full fixed bg-white  transition-all duration-300">
+      <div className="lg:flex lg:flex-row md:flex-col justify-between items-center px-6 md:px-8 lg:px-12 xl:px-30 py-5 z-[100] w-full fixed bg-transparent text-white  transition-all  duration-300">
         {/* Hamburger Menu (Mobile Only) */}
         <div className="lg:hidden absolute left-4 top-6 z-50">
           <button
@@ -131,20 +131,20 @@ const Navbar = () => {
             <div className="flex items-center gap-4 mt-8">
               <button className="hover:scale-110 transition-transform duration-200">
                 <Image
-                  src="/icons/map.png"
+                  src="/icons/map.svg"
                   alt="map"
                   width={34}
                   height={34}
-                  className="h-8 w-8"
+                  className="h-8 w-8 bg-white"
                 />
               </button>
-              <button className="hover:scale-110 transition-transform duration-200">
+              <button className="hover:scale-110 transition-transform duration-200 ">
                 <Image
-                  src="/icons/call.png"
+                  src="/icons/call.svg"
                   alt="call"
                   width={34}
                   height={34}
-                  className="h-8 w-8"
+                  className="h-8 w-8 bg-shadow-white bg-blend-overlay bg-neutral-800 "
                 />
               </button>
               <span className="underline text-lg">281-345-1678</span>
@@ -153,7 +153,7 @@ const Navbar = () => {
               size="lg"
               className="hover:scale-105 text-primary transition-transform duration-200 text-lg"
             >
-              Consult Now
+              <span className="text-primary text-[18px]">Consult Now</span>
             </Button>
           </div>
         </div>
