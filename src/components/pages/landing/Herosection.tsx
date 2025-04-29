@@ -31,9 +31,9 @@ const Herosection = () => {
             competitive rate.
           </p>
           <Button size="lg">Schedule an Appointment</Button>
-          <div className='flex justify-end relative top-80 left-200 items-end'>
+          <div className='flex justify-end relative top-80 left-200 items-end gap-5 text-[#f0f0f0]'>
             <span><Mail/></span>
-            <span>info@texasgroundworks.com</span>
+            <span className='underline'>info@texasgroundworks.com</span>
           </div>
         </div>
       </div>

@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
 import { Inter, Island_Moments, Oswald } from "next/font/google";
 
 const inter = Inter({
@@ -33,13 +32,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${inter.variable} ${island.variable} ${oswald.variable}`}
-      >
-        <Navbar/>
+    <html
+      lang="en"
+      // Apply Inter as default font and define CSS variables
+      className={`${inter.className} ${island.variable} ${oswald.variable}`}
+    >
+      <body>
+        <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
