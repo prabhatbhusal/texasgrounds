@@ -14,7 +14,7 @@ const Herosection = () => {
         >
           <source src="/video/video.mp4" type="video/mp4" />
         </video>
-        <div className="z-[10] flex flex-col justify-center  h-[1107px]  items-center ">
+        <div className="z-[10] flex flex-col justify-center  h-[1107px] gap-5 items-center ">
           <h1 className="lg:text-[90px] font-oswald  ">Expert Landscaping Services</h1>
           <p className="lg:text-[44px] font-bold  font-oswald text-center lg:w-[920px]">
             Providing you with creativity, quality and satisfaction we are known

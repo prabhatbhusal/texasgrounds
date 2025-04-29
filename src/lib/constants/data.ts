@@ -179,3 +179,38 @@ export const FooterItems: footerItems[] = [
     ],
   },
 ];
+
+
+
+export const servicephotos = [
+  {
+    title: "Commerical Landscaping",
+    src: "/images/Commercial.png",
+    alt: "Commerical Landscaping",
+  },
+  {
+    title: "Landscape Maintenance",
+    src: "/images/Landscape.png",
+    alt: "Landscape Maintenance",
+  },
+  {
+    title: "Landscape Drainage",
+    src: "/images/Drainage.png",
+    alt: "Landscape Drainage",
+  },
+  {
+    title: "Landscape Irrigration",
+    src: "/images/Irrigation.png",
+    alt: "Landscape Irrigration",
+  },
+  {
+    title: "Backflow Inspection",
+    src: "/images/Backflow.png",
+    alt: "Backflow Inspection",
+  },
+  {
+    title: "Tractor Mowing",
+    src: "/images/Tractor.png",
+    alt: "Tractor Mowing",
+  },
+];
